@@ -1,25 +1,22 @@
-# Installing Knative
+# 安装 Knative
 
-!!! note
-    Please also take a look at the [Serving Architecture](../serving/architecture.md), which explains the Knative components and the general networking concept.
+!!! 注意
+    请同时查看[Serving 架构](../serving/architecture.md)，其中解释了 Knative 组件和一般的网络概念。
 
-You can install the Serving component, Eventing component, or both on your
-cluster by using one of the following deployment options:
+您可以通过以下部署选项之一在集群上安装 Serving 组件、Eventing 组件或两者：
 
-- Use the [Knative Quickstart plugin](quickstart-install.md) to install a
-preconfigured, local distribution of Knative for development purposes.
+- 使用 [Knative Quickstart 插件](quickstart-install.md) 安装预配置的用于开发目的的本地 Knative 发行版。
 
-- Use a YAML-based installation to install a production ready deployment:
-    - [Install Knative Serving by using YAML](yaml-install/serving/install-serving-with-yaml.md)
-    - [Install Knative Eventing by using YAML](yaml-install/eventing/install-eventing-with-yaml.md)
+- 使用基于 YAML 的安装来安装生产就绪的部署：
+    - [使用 YAML 安装 Knative Serving](yaml-install/serving/install-serving-with-yaml.md)
+    - [使用 YAML 安装 Knative Eventing](yaml-install/eventing/install-eventing-with-yaml.md)
 
-- Use the [Knative Operator](operator/knative-with-operators.md) to install and
-configure a production-ready deployment.
+- 使用 [Knative Operator](operator/knative-with-operators.md) 来安装和配置生产就绪的部署。
 
-- Follow the documentation for vendor-managed [Knative offerings](knative-offerings.md).
+- 按照供应商管理的 [Knative 产品](knative-offerings.md)的文档进行操作。
 
-You can also [upgrade an existing Knative installation](upgrade/README.md).
+您还可以[升级现有的 Knative 安装](upgrade/README.md)。
 
-!!! note
-    Knative installation instructions assume you are running Mac or Linux with a Bash shell.
-<!-- TODO: Link to provisioning guide for advanced installation -->
+!!! 注意
+    Knative 安装说明假设您正在运行 Mac 或 Linux，并使用 Bash shell。
+<!-- TODO: 链接到高级安装的配置指南 -->
