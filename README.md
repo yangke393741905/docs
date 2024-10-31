@@ -3,102 +3,72 @@ _build:
   render: never
   list: never
 ---
-(This guide only appears on GitHub, not the website, because it
-**intentionally** does not include YAML front-matter.)
+(此指南仅在GitHub上显示，不在网站上显示，因为它**故意**不包含YAML前置内容。)
 
-# Knative documentation
+# Knative文档
 
-Welcome to the source file repository for our documentation on
-https://knative.dev.
+欢迎访问我们在https://knative.dev上的文档的源文件仓库。
 
-## Website
+## 网站
 
-The Knative documentation website is built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+Knative文档网站是使用[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)构建的。
 
-### View published documentation
+### 查看已发布的文档
 
-View all Knative documentation and walk through our code samples on the
-[website](https://knative.dev).
+在[网站](https://knative.dev)上查看所有Knative文档并浏览我们的代码示例。
 
-The Knative website includes versioned docs for recent releases, the Knative
-blog, links to all community resources, as well as Knative governance and
-contributor guidelines.
+Knative网站包括最近版本的文档、Knative博客、所有社区资源的链接，以及Knative的治理和贡献者指南。
 
-### Run the website locally
+### 本地运行网站
 
-For instructions, refer to Knative's [docs contributor guide](contribute-to-docs/getting-started/previewing-docs-locally.md).
+有关说明，请参阅Knative的[文档贡献者指南](contribute-to-docs/getting-started/previewing-docs-locally.md)。
 
-### Website source files
+### 网站源文件
 
-Source files for the documentation on the website are located within the
-[`/docs`](docs) directory of this repo.
+网站上文档的源文件位于此仓库的[`/docs`](docs)目录中。
 
-### Documentation versions for Knative releases
+### Knative版本对应的文档版本
 
-Each release of the Knative docs is available on the website (starting with
-0.3) and their source files are all stored in
-[branches of this repo](doc-releases.md).
+每个Knative文档版本都可在网站上找到（从0.3版本开始），它们的源文件都存储在此仓库的[分支](doc-releases.md)中。
 
-## Contributing to docs
+## 贡献文档
 
-We're excited that you're interested in contributing to the Knative documentation! Check out the resources below to get started.
+我们很高兴您有兴趣为Knative文档做出贡献！请查看以下资源以开始。
 
-If you are interested in contributing to Knative more broadly, please check out [CLOTRIBUTOR](https://clotributor.dev/search?project=knative&page=1)
-for a list of all the help wanted issues in Knative.
+如果您对更广泛地贡献Knative感兴趣，请查看[CLOTRIBUTOR](https://clotributor.dev/search?project=knative&page=1)以获取Knative中所有需要帮助的问题列表。
 
-### Getting started
+### 入门
 
-If you want to contribute a fix or add new content to the documentation, you can
-navigate through the [`/docs`](docs) repo or use the `Edit this page` pencil icon on each of the pages of
-the website.
+如果您想贡献修复或向文档添加新内容，您可以浏览[`/docs`](docs)仓库或在网站的每一页上使用`编辑此页面`的铅笔图标。
 
-Before you can contribute, first start by reading the Knative contributor
-guidelines and learning about our community and requirements. In addition to
-reading about how to contribute to the docs, you should take a moment to learn
-about the Knative code of conduct, governance, values, and the various working
-groups and committees.
+在您可以贡献之前，首先从阅读Knative贡献者指南并了解我们的社区和要求开始。除了了解如何为文档做出贡献外，您还应该花时间了解Knative的行为准则、治理、价值观以及各种工作组和委员会。
 
-[Knative community and contributor guidelines](https://github.com/knative/community/)
+[Knative社区和贡献者指南](https://github.com/knative/community/)
 
-Source files for all Knative community and governance topics are located
-separately in the [knative/community](https://github.com/knative/community/)
-repo.
+所有Knative社区和治理主题的源文件都单独位于[knative/community](https://github.com/knative/community/)仓库中。
 
-To help you get started, see the following resources:
+为了帮助您开始，请查看以下资源：
 
-- [Knative docs contributor's guide](contribute-to-docs/README.md) -- Contains information about how
-  to contribute.
+- [Knative文档贡献者指南](contribute-to-docs/README.md) -- 包含有关如何贡献的信息。
 
-- New content templates:
-  - [Concept](contribute-to-docs/templates/template-concept.md)
-  - [Procedure](contribute-to-docs/templates/template-procedure.md)
-  - [Troubleshooting](contribute-to-docs/templates/template-troubleshooting.md)
-  - [Blog](contribute-to-docs/templates/template-blog-entry.md)
+- 新内容模板：
+  - [概念](contribute-to-docs/templates/template-concept.md)
+  - [过程](contribute-to-docs/templates/template-procedure.md)
+  - [故障排除](contribute-to-docs/templates/template-troubleshooting.md)
+  - [博客](contribute-to-docs/templates/template-blog-entry.md)
 
-### Getting help
+### 获取帮助
 
-- [#knative-documentation on the CNCF Slack](https://cloud-native.slack.com/archives/C04LY5G9ED7) -- The #knative-documentation channel
-  is the best place to go if you have questions about making changes to the
-  documentation. We're happy to help!
+- [#knative-documentation on the CNCF Slack](https://cloud-native.slack.com/archives/C04LY5G9ED7) -- 如果您对文档更改有疑问，#knative-documentation频道是最好的去处。我们很乐意帮忙！
 
-- [Documentation working group](https://github.com/knative/community/blob/main/working-groups/WORKING-GROUPS.md#documentation) -- Come join
-  us in the working group to meet other docs contributors and ask any questions
-  you might have.
+- [文档工作组](https://github.com/knative/community/blob/main/working-groups/WORKING-GROUPS.md#documentation) -- 加入我们的工作组，与其他文档贡献者见面并提出您可能有的任何问题。
 
-## Help and support
+## 帮助与支持
 
-Your help and feedback is always welcome!
+我们随时欢迎您的帮助和反馈！
 
-If you find an issue please let us know, either by clicking the `Create Issue` on any
-of the website pages, or by directly opening an
-[issue](https://github.com/knative/docs/issues/new/choose) here in the repo.
+如果您发现问题，请告诉我们，可以通过点击网站任何页面上的`创建问题`，或直接在此仓库中[提出问题](https://github.com/knative/docs/issues/new/choose)。
 
-If you have a question that you can't find an answer to, we would also like to
-hear about that. In addition to our docs, you can also reach out to the
-community for assistance. For example, ask a documentation-specific question on
-the `#knative-documentation` channel in [Slack](https://cloud-native.slack.com/archives/C04LY5G9ED7).
+如果您有找不到答案的问题，我们也希望听到。除了我们的文档，您还可以向社区寻求帮助。例如，在[Slack](https://cloud-native.slack.com/archives/C04LY5G9ED7)的`#knative-documentation`频道提出文档相关的问题。
 
-Also see the [Knative community resource pages](https://knative.dev/docs/community/)
-for a list of all the available community resources, including links to the
-various community discussion groups for both development as well as
-troubleshooting.
+另请参阅[Knative社区资源页面](https://knative.dev/docs/community/)，获取所有可用社区资源的列表，包括开发和故障排除的各种社区讨论组的链接。
