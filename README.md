@@ -7,7 +7,7 @@ _build:
 
 # Knative文档
 
-欢迎访问我们在https://knative.dev上的文档的源文件仓库。
+欢迎访问我们在https://knative.dev 上的文档的源文件仓库。
 
 ## 网站
 
